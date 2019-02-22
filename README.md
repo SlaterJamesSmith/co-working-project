@@ -30,7 +30,7 @@ Desktop prototype: ![desktop prototype](img/desktop-prototype.png) -->
 
 Description: Personas outlining potential user needs based on different emphases.
 
-Safety Focus: _As someone focused on safety and comfort in my workspace, I don't want to feel isolated or silenced._
+__Safety Focus____: _As someone focused on safety and comfort in my workspace, I don't want to feel isolated or silenced._
 * _accountability_
 * _accessibility_
 * _visibility_
@@ -40,33 +40,33 @@ Safety Focus: _As someone focused on safety and comfort in my workspace, I don't
 * _diversity_
 * _security_
 
-Productive Focus: _As someone focused on staying productive in my workspace, I want to avoid distraction and inefficiency._
+__Productive Focus__: _As someone focused on staying productive in my workspace, I want to avoid distraction and inefficiency._
 * _access to work resources_
 * _access to quiet space_
 * _work setting variety_
 * _access to privacy_
 * _spacious_
 
-Culture Focus: _As someone focused on a culture of independence/entrepreneurship, I want reflections of my values and identity in my workspace._
+__Culture Focus__: _As someone focused on a culture of independence/entrepreneurship, I want reflections of my values and identity in my workspace._
 * _reflections of self in workspace_
 * _personality in interior design_
 * _signs of "local" focus_
 * _DIY aesthetic_
 
-Non-tech Focus: _As a non-tech-industry person and non-coder, I want to be able to be productive and accepted in a workspace that usually doesn't cater to my needs._
+__Non-tech Focus__: _As a non-tech-industry person and non-coder, I want to be able to be productive and accepted in a workspace that usually doesn't cater to my needs._
 * _writing, design, ad, and editing resources_
 * _ability to take and make phone calls_
 * _ability to host in-person meetings_
 * _networking opportunities_
 
-Convenience Focus: _As someone focused on convenience in my workplace, I want easy access to resources that make my life easier._
+__Convenience Focus__: _As someone focused on convenience in my workplace, I want easy access to resources that make my life easier._
 * _food / sacks / coffee / tea_
 * _kitchen / food storage_
 * _mass transit access_
 * _lots of amenities_
 * _gym access_
 
-Community Focus: _As someone focused on community, I want ways to foster connection in my workspace._
+__Community Focus__: _As someone focused on community, I want ways to foster connection in my workspace._
 * _communal work spaces_
 * _classes offered_
 * _communal meals_
@@ -98,7 +98,7 @@ Community Focus: _As someone focused on community, I want ways to foster connect
 - Alternatively, click this gh-pages link to view it directly in the web browser of your choice: -->
 
 ### Roadmap
-<!-- 
+<!--
 Is there work you plan on continuing doing on this project? Features you'd like to add?
 
 *
