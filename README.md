@@ -28,7 +28,7 @@ Desktop prototype: ![desktop prototype](img/desktop-prototype.png) -->
 
 ### User Personas
 
-Description: Personas outlining potential user needs based on different emphases.
+Description: Personas outlining potential target user needs based on different emphases.
 
 __Safety Focus____: _As someone focused on safety and comfort in my workspace, I don't want to feel isolated or silenced._
 * _accountability_
