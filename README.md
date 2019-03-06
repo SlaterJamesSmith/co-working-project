@@ -14,9 +14,9 @@ Mobile sketch: ![mobile sketch](/prototyping/sketches/phone-view.JPG)
 
 Desktop sketch: ![desktop sketch](/prototyping/sketches/desktop-view.JPG)
 
-Mobile prototype: ![mobile prototype](img/mobile-prototype.png)
+Mobile prototype: ![mobile prototype](/prototyping/sketches/phone-sketch.JPG)
 
-Desktop prototype: ![desktop prototype](img/desktop-prototype.png)
+Desktop prototype: ![desktop prototype](/prototyping/sketches/desktop-sketch.JPG)
 
 <!-- #### Desktop Version
 
