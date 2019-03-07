@@ -8,8 +8,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
 
-  module: {
+  devtool: 'eval-source-map',
+  devServer: {
+    contentBase: './dist'
+  },
 
+  module: {
    rules: [
 
      {
@@ -23,7 +27,7 @@ module.exports = {
    ]
   },
 
- plugins: [
+  plugins: [
 
    new HtmlWebpackPlugin({
      inject: 'body',
