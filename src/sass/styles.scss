@@ -1,8 +1,37 @@
 $font-stack: Helvetica, sans-serif;
 $primary-font-color: red;
 
+* {
+  border: 1px solid blue;
+}
+
 body {
   font: 100% $font-stack;
   color: $primary-font-color;
   background-color: pink;
+  margin: 0;
+}
+
+.banner {
+  display: grid;
+  width: 1024px;
+  grid-template-columns: 1024px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 1014px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 200px 200px 230px 200px 200px;
+  justify-content: center;
+  border: 5px solid grey;
+}
+
+.menu-btn {
+  color: white;
+  background: 0;
+  font-size: 20px;
+  // border: 0;
 }
