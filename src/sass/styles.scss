@@ -1,9 +1,9 @@
 $font-stack: Helvetica, sans-serif;
 $primary-font-color: #535353;
 
-// * {
-//   border: 1px solid blue;
-// }
+* {
+  border: 1px solid blue;
+}
 
 body {
   font: 100% $font-stack;
@@ -71,7 +71,8 @@ $menuBorder: #535353;
 }
 
 #description {
-  padding: 0 20px;
+  font-size: 20px;
+  line-height: 1.3em;
 }
 
 .contact-buttons {
@@ -101,4 +102,16 @@ $menuBorder: #535353;
   background-color: white;
   margin: 15px 0;
   border-radius: 20px;
+}
+
+.heart {
+  display: grid;
+  grid-template-columns: 9.891px 10px;;
+  grid-gap: 10px;
+}
+
+.quote-bar-two {
+  background-color: $menuBorder;
+  border-radius: 20px;
+  margin-top: 10px;
 }
