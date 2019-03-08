@@ -18,14 +18,6 @@ Mobile prototype: ![mobile prototype](/prototyping/sketches/phone-sketch.JPG)
 
 Desktop prototype: ![desktop prototype](/prototyping/sketches/desktop-sketch.JPG)
 
-<!-- #### Desktop Version
-
-![desktop user interface](img/desktop-sample.png)
-
-#### Mobile Version
-
-![mobile user interface](img/mobile-sample.png) -->
-
 ### User Personas
 
 Description: Personas outlining potential target user needs based on different emphases.
@@ -100,17 +92,22 @@ __How Can We Serve__: Networking opportunities, communal meals, analog tools lik
 
 ### Technologies and Resources
 
-<!-- * HTML
-* CSS
-  * SASS
-* JavaScript
-  * jQuery -->
+* HTML
+* SASS
+* Webpack
 
 ### Responsiveness
 
 <!-- Describe how the site is responsive, and what different 'versions' this project includes (does it have a mobile version? tablet version? ) -->
 
 ### Setup Instructions
+
+1. Clone this repository at https://github.com/SlaterJamesSmith/co-working-project
+2. Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
+3. In terminal, enter "$ nmp i" to install node package manager
+4. Next, in terminal enter "$ nmp run start" and a new browser window should load with the url "localhost:8080"
+
+
 
 <!-- 1. Clone this repository @
 2. Use a terminal of your choice (I use Git Bash) to access the webpage and its files by inputting: "git clone {the above clone link}"
