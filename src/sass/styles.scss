@@ -41,6 +41,7 @@ $menuBorder: #535353;
   border-left: none;
   border-right: none;
   margin-left: 0;
+  height: 37;
 }
 
 .menu-btn {
@@ -60,6 +61,8 @@ $menuBorder: #535353;
   text-align: center;
   width: 100vw;
   max-width: 1014px;
+  height:95px;
+  align-items: center;
   // position: fixed;
   // bottom: 0;
   // width: 1024px;
@@ -210,6 +213,64 @@ $menuBorder: #535353;
 
   .right-body {
     margin-top: 100px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 739px) {
+
+  .bullet-container {
+    display: none;
+  }
+
+  .content {
+    display:flex;
+    margin-top:90px;
+  }
+
+  .heart {
+    margin-top: -30px;
+  }
+
+  .right-body {
+    margin-top: 100px;
+    margin-right: 30px;
+  }
+
+  .menu {
+    grid-template-columns: 1fr;
+    border: 0;
+    // height: 500px;
+    #values,
+    #partnerships,
+    #ourwork,
+    #offerings,
+    #rates {
+      text-align: center;
+    }
+
+    #values {
+      background-color: #989392;
+    }
+    #partnerships {
+        background-color: #A4A1A0;
+    }
+    #ourwork {
+      background-color: #AEAAA9;
+    }
+    #offerings {
+      background-color: #B7B2B1;
+    }
+    #rates {
+      background-color: #C3BEBD;
+    }
+  }
+  .footer-link {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -236,5 +297,13 @@ $menuBorder: #535353;
 
   .contact-buttons {
     flex-direction: column;
+  }
+
+  .right-body {
+    margin-right: 30px;
+  }
+
+  .footer-image {
+    width: 80vw;
   }
 }
