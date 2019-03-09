@@ -123,10 +123,15 @@ $menuBorder: #535353;
   color: white;
 }
 
+.quote-bar-three,
 .quote-bar {
   background-color: white;
   margin: 15px 0;
   border-radius: 20px;
+}
+
+.quote-bar-three {
+  height: 65%;
 }
 
 .heart {
@@ -186,5 +191,50 @@ $menuBorder: #535353;
   }
   p:last-child {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 739px) {
+
+  .bullet-container {
+    display: none;
+  }
+
+  .content {
+    display:flex;
+  }
+
+  .heart {
+    margin-top: -30px;
+  }
+
+  .right-body {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .bullet-container {
+    display: none;
+  }
+
+  .content {
+    display:flex;
+  }
+
+  .heart {
+    margin-top: -30px;
+  }
+
+  .right-body {
+    margin-top: 100px;
+  }
+
+  .quotes {
+    grid-template-columns: 1.5% 94.5%;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
   }
 }
