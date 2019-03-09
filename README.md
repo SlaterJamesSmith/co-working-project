@@ -1,12 +1,22 @@
 ## Co-working mock client design
 ---
+#### _UI and responsive design practice, homework as assigned by Epicodus, 3/8/19_
 
 #### Slater Smith
-#### 2/22/2019
 
 ### Description
 
-Example website design based on fictional co-working space client.
+Example website design based on fictional co-working space client. Assignment was to build a website based on fictional set of client-desires for branding. This web page was built to practice wireframing, responsive design, and implementing grids and flexboxes.
+
+#### Program behavior specifications:
+| Behavior | Input | Output |
+| --------------------------- | ------------------- | ------------------- |
+| This page is meant for design and responsive design practice only, so buttons will not be clickable | User clicks button or content | nothing happens |
+| Page content will remain centered when the viewport width is greater than 1025px | User changes window width from 1150px to 1050px | All images and content stay centered |
+| Between viewport widths of 1025px and 739px, all content will adjust size to fit within screen | User changes window width from 1050px to 800px | All images and content adjust to smaller sizes and/or widths to fit viewport |
+| Below viewport width of 739px, navigation bar menu will change styling from a row into a stacked, and each button will be a different shade of grey. In addition, bullet pointed list in the body text will disappear | User changes window width from 800px to 700px | Navigation bar menu changes to a list of stacked buttons, the topmost being a dark shade of grey with each consecutive button background becoming lighter. Bullet point list in homepage also disappears |
+| Between viewport widths of 739px and 445px, footer buttons will disappear and content above "sign up" and "learn more" buttons will stack | User changes window width from 700px to 600px | "co-working with heart" text stacks on top of page description and footer buttons disappear while footer logo remains |
+| Below viewport width of 445px, all content will stack in a column | User changes window width from 600px to 400px | Each block of content appears in its own line, filling the majority of the width of the page |
 
 ### Images
 
@@ -20,7 +30,7 @@ Desktop prototype: ![desktop prototype](/prototyping/sketches/desktop-sketch.JPG
 
 ### User Personas
 
-Description: Personas outlining potential target user needs based on different emphases.
+Description: Personas outlining potential target user needs. These personas and user stories were build to anticipate potential clients for a fictional co-working company.
 
 #### Developer
 
@@ -95,34 +105,29 @@ __How Can We Serve__: Networking opportunities, communal meals, analog tools lik
 * HTML
 * SASS
 * Webpack
+* npm
 
 ### Responsiveness
 
-<!-- Describe how the site is responsive, and what different 'versions' this project includes (does it have a mobile version? tablet version? ) -->
+This website is responsive for desktop, tablet, and mobile views. A custom stacked menu will appear at the top of this website below the banner image at 739 pixel viewport width and below. All other content will also rearrange itself to fit the viewport as it narrows.
 
 ### Setup Instructions
 
 1. Clone this repository at https://github.com/SlaterJamesSmith/co-working-project
 2. Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
-3. In terminal, enter "$ nmp i" to install node package manager
-4. Next, in terminal enter "$ nmp run start" and a new browser window should load with the url "localhost:8080"
+3. If homebrew is not yet installed on your Mac, install it by running the following command in your terminal: "$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+4. If you are not using a Mac, and homebrew is not yet installed, go to the node website and follow appropriate installer for your operating system at https://nodejs.org/en/download/
+5. In terminal, enter "$ nmp i" to install node package manager
+6. In terminal, navigate into project by entering enter "$ cd co-working-project"
+7. Next, in terminal enter "$ nmp run start" and a new web browser window should load with the url "localhost:8080"
 
 
-
-<!-- 1. Clone this repository @
-2. Use a terminal of your choice (I use Git Bash) to access the webpage and its files by inputting: "git clone {the above clone link}"
-3. Open the folder you receive and open the index.html link in the web browser of your choice (I use Google Chrome).
-
-- Alternatively, click this gh-pages link to view it directly in the web browser of your choice: -->
-
-### Roadmap
-<!--
-Is there work you plan on continuing doing on this project? Features you'd like to add?
-
-*
-*
-*
-* -->
+### Roadmap & Known Bugs
+This application still needs work before it can be considered complete. It still needs:
+* Text/font styling to match wireframes
+* Banner image change upon switch to "tablet" and "mobile" views to reflect wireframe prototypes
+* Active links to additional pages
+* In "tablet" and "mobile" views a glitch occurs when the user scrolls to the right; a large empty margin appears when this happens. This will need to be fixed for the final version.
 
 ### License
 
