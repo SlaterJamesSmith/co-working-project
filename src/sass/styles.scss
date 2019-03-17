@@ -50,6 +50,7 @@ $menuBorder: #535353;
   background: 0;
   font-size: 20px;
   border: 0;
+  padding-bottom: 4px;
 }
 
 .footer {
@@ -200,6 +201,9 @@ $menuBorder: #535353;
 }
 
 @media screen and (max-width: 739px) {
+  body {
+    background-color: pink;
+  }
 
   .bullet-container {
     display: none;
@@ -215,17 +219,12 @@ $menuBorder: #535353;
     margin-right: 30px;
   }
 
-  .body {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-
-  }
 
   .content {
     display:flex;
-    margin-top:90px;
+    margin-top:105px;
   }
+
 
   .menu {
     grid-template-columns: 1fr;
@@ -265,6 +264,11 @@ $menuBorder: #535353;
 }
 
 @media screen and (max-width: 445px) {
+  body {
+    background-color: pink;
+  }
+
+
   .bullet-container {
     display: none;
   }
