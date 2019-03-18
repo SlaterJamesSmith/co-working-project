@@ -243,7 +243,7 @@ $menuBorder: #535353;
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   body {
     background-color: #F5ABAA;
     border: 0;
@@ -260,6 +260,7 @@ $menuBorder: #535353;
 
   .quote-bar-two {
     height: 45px;
+    background-color: #F5ABAA;
   }
 
   #description {
