@@ -111,7 +111,8 @@ $menuBorder: #535353;
   background-color: #F5ABAA;
   width: 100vw;
   max-width: 1024px;
-  padding-top: 20px
+  padding-top: 20px;
+  // max-height: 525px;
 }
 
 .right-body{
@@ -120,8 +121,9 @@ $menuBorder: #535353;
 }
 
 #description {
-  font-size: 20px;
+  font-size: 23px;
   line-height: 1.3em;
+  margin-bottom: 0;
 }
 
 
@@ -146,6 +148,9 @@ $menuBorder: #535353;
   grid-template-columns: 1.5% 44.5% 1.5% 44.5%;
   grid-gap: 10px;
   color: white;
+  font-size: 18px;
+  line-height: 1.1;
+  font-family: 'Quicksand';
 }
 
 .quote-bar-three,
@@ -156,7 +161,7 @@ $menuBorder: #535353;
 }
 
 .quote-bar-three {
-  height: 65%;
+  height: 75%;
 }
 
 .heart {
@@ -241,6 +246,10 @@ $menuBorder: #535353;
   // margin-bottom: 15.23%;
 }
 
+.footer {
+  align-self: baseline;
+}
+
 }
 
 @media screen and (max-width: 900px) {
@@ -316,6 +325,7 @@ $menuBorder: #535353;
   .footer {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
   }
 
   // .right-body {
@@ -370,7 +380,9 @@ $menuBorder: #535353;
     grid-template-columns: 1.5% 94.5%;
   }
 
-
+  .footer {
+    margin-top: 0;
+  }
 
   .right-body {
     margin-top: -40px;;
