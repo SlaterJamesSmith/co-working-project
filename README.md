@@ -6,7 +6,24 @@
 
 ### Description
 
-Example website design based on fictional co-working space client. Assignment was to build a website based on fictional set of client-desires for branding. This web page was built to practice wireframing, responsive design, and implementing grids and flexboxes.
+Example website design based on fictional co-working space client. Assignment was to build a website based on fictional set of client-desires for branding. This web page was built to practice wireframing, responsive design, and implementing grids and flexboxes. Included in this README file are example screenshots of wireframe designs built in 'sketch,' as well as example user stories and personas developed to help inform webpage design.
+
+### Responsiveness
+
+This website is responsive for desktop, tablet, and mobile views. A custom stacked menu will appear at the top of this website below the banner image at 900 pixel viewport width and below. All other content will also rearrange to fit the viewport as it narrows.
+
+### Setup Instructions
+
+To view webpage with a single web browser link, visit https://slaterjamessmith.github.io/co-working-project/ in your chrome browser. To view using webpack, follow instructions below:
+
+1. Clone this repository at https://github.com/SlaterJamesSmith/co-working-project
+2. Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
+3. If homebrew is not yet installed on your Mac, install it by running the following command in your terminal: "$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+4. If you are not using a Mac, and homebrew is not yet installed, go to the node website and follow appropriate installer for your operating system at https://nodejs.org/en/download/
+5. In terminal, enter "$ nmp i" to install node package manager
+6. In terminal, navigate into project by entering enter "$ cd co-working-project"
+7. Next, in terminal enter "$ nmp run start" and a new web browser window should load with the url "localhost:8080"
+
 
 #### Program behavior specifications:
 | Behavior | Input | Output |
@@ -100,26 +117,12 @@ __How Can We Serve__: Networking opportunities, communal meals, analog tools lik
 * _networking opportunities_
 
 
-### Technologies and Resources
+### Technologies and Resources Used
 
 * HTML
 * SASS
 * Webpack
 * npm
-
-### Responsiveness
-
-This website is responsive for desktop, tablet, and mobile views. A custom stacked menu will appear at the top of this website below the banner image at 739 pixel viewport width and below. All other content will also rearrange itself to fit the viewport as it narrows.
-
-### Setup Instructions
-
-1. Clone this repository at https://github.com/SlaterJamesSmith/co-working-project
-2. Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
-3. If homebrew is not yet installed on your Mac, install it by running the following command in your terminal: "$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-4. If you are not using a Mac, and homebrew is not yet installed, go to the node website and follow appropriate installer for your operating system at https://nodejs.org/en/download/
-5. In terminal, enter "$ nmp i" to install node package manager
-6. In terminal, navigate into project by entering enter "$ cd co-working-project"
-7. Next, in terminal enter "$ nmp run start" and a new web browser window should load with the url "localhost:8080"
 
 
 ### Roadmap & Known Bugs
