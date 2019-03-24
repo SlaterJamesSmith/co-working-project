@@ -127,10 +127,8 @@ __How Can We Serve__: Networking opportunities, communal meals, analog tools lik
 
 ### Roadmap & Known Bugs
 This application still needs work before it can be considered complete. It still needs:
-* Text/font styling to match wireframes
-* Banner image change upon switch to "tablet" and "mobile" views to reflect wireframe prototypes
 * Active links to additional pages
-* In "tablet" and "mobile" views a glitch occurs when the user scrolls to the right; a large empty margin appears when this happens. This will need to be fixed for the final version.
+* Some font stylings don't translate on all browsers or machines, instead appearing incorrectly as Times New Roman. This is not a huge issue as this project is meant to showcase responsive design rather than font choices, but it should eventually be fixed. See prototyping screenshots above to get a better idea of correct stylings if fonts appear as Times New Roman or any non-sans-serif font in your browser. 
 
 ### License
 
